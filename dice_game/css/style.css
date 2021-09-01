@@ -1,0 +1,90 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster&display=swap');
+
+/* CSS variables */
+:root
+{
+	--primary-color: #4ECCA3;
+	--secondary-color: #319775;
+	--dark-color: #393E46;
+}
+
+.container 
+{
+  	width: 70%;
+  	margin: auto;
+	text-align: center;
+}
+
+.dice 
+{
+	text-align: center;
+	display: inline-block;
+}
+
+body 
+{
+	background-color: var(--dark-color);
+}
+
+h1 
+{
+  	margin: 30px;
+  	font-family: 'Lobster';
+  	text-shadow: 5px 0 #232931;
+  	font-size: 8rem;
+  	color: var(--primary-color);
+}
+
+p 
+{
+  	font-size: 2rem;
+  	color: var(--primary-color);
+  	font-family: 'Indie Flower';
+}
+
+img 
+{
+  	width: 80%;
+}
+
+footer 
+{
+  	margin-top: 5%;
+  	color: #EEEEEE;
+  	text-align: center;
+  	font-family: 'Indie Flower';
+}
+
+.btn_roll
+{
+  	display: inline-block;
+  	background-color: var(--primary-color);
+  	padding: 5px 30px;
+  	margin: 2rem auto;
+  	cursor: pointer;
+  	font-family: "Indie Flower";
+  	font-size: 1.5rem;
+  	font-weight: 900;
+  	border-radius: 10px;
+}
+
+.btn_roll:hover
+{
+  	background-color: var(--secondary-color);
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 720px)
+{
+	h1
+	{
+		font-size: 4rem;
+	}
+
+	img
+	{
+		width: 60%;
+	}
+}
